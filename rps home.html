@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html lang="en";>
+		<head>
+			<title>Rock Paper Scissors</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		</head>
+		<body>
+			<div id=masterBackground>
+				<center>
+					<div id="rpsResult">
+						<h3 id="res"></h3>
+						<h4 id="player"></h4>
+						<h4 id="computer"></h4>
+						
+						<div id="reloadButton";>
+						<button onclick="refreshFunc()"; class="button";>Play again</button>
+						</div>
+					</div>
+				</center>
+				
+				<!-- <div style="text-align:center;">
+					<button onclick="refreshFunc()"; class="button";>Play again</button>
+				</div> -->
+			</div>
+	
+			<script src="rps script.js"></script>
+			<script src="rps reload script.js"></script>
+			<script></script>
+			<script>document.getElementById("res").innerHTML = output</script>
+			<script>document.getElementById("player").innerHTML = userOutput</script>
+			<script>document.getElementById("computer").innerHTML = computerOutput</script>
+		</body>
+	</html>
+	
